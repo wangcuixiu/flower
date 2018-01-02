@@ -1,0 +1,47 @@
+@font-face {font-family: 'font';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+html,body{
+	height: 100%;
+	font-family:font;
+	background:#f4f4f4;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+#header{
+	width: 100%;
+	height: 2.7rem;
+	background: #06c1ae;
+}
+
+#main{
+	flex: 1;
+	overflow-y: scroll;
+}
+#ul-box{
+	/* width:3.2rem; */
+	width:100%;
+	height:1.6rem;
+	border-bottom: 0.01rem solid #333;
+	background:pink;
+}
+#ul-box>li{
+	float:left;
+	width:1.59rem;
+	line-height:1.6rem;
+	border-top:0.01rem solid #333;
+	border-right: 0.01rem solid #333;
+}
+#footer{
+	display:flex;
+	width: 100%;
+	height: 0.97rem;
+	background: #fff;
+}
